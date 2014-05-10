@@ -9,11 +9,11 @@ global full_range
 networkID = '9Node-network';
 numNodes = 9;
 numFacilities = 3;
-numRoutes = 4;       % number of candidate routes
+numRoutes = 5;       % number of candidate routes
 
-numStations = 3;     % number of stations to locate
+numStations = 0;     % number of stations to locate
 numPads = numFacilities - numStations;         % number of pads(routes) to locate
-full_range = 4;      % set full capacity vehicle range (in mile)
+full_range = 5;      % set full capacity vehicle range (in mile)
 c_station = 2;       % cost for charging station
 c_pad = 5;           % cost for charging pad
 
